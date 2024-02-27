@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { LogBox } from 'react-native';
+import React from 'react';
 import MainNavigator from './src/navigation/MainNavigator';
 import { Provider } from 'react-redux';
 import store from '@/store';

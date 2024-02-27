@@ -11,6 +11,7 @@ import Pagination from './Pagination';
 import { IPromotionList } from '@/types/dataTypes';
 import { useDispatch } from 'react-redux';
 import { getPromotionDetailThunk } from '@/store/reducers';
+import { colors, dWidth } from '@/constants';
 
 
 
@@ -130,6 +131,23 @@ const CustomCardCarousel: React.FC<CustomCardCarouselProps> = ({
                                         source={{ uri: item.BrandIconUrl }}
                                         style={{ width: 50, height: 50 }}
                                     />
+                                </View>
+                                {/* tag */}
+                                <View
+                                    style={{
+                                        position: 'absolute',
+                                        top: dWidth * .6,
+                                        right: 10,
+                                        backgroundColor: '#1d1e1c',
+                                        paddingVertical: 3,
+                                        paddingHorizontal: 9,
+                                        borderRadius: 30,
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                    }}
+
+                                >
+                                    <Text style={{ color: colors.white }} >son 12 gün</Text>
                                 </View>
                             </Animated.View>
                         </View>

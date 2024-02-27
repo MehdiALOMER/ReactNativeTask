@@ -28,9 +28,9 @@ const DetailScreen: React.FC = ({ navigation }: any) => {
                 </GenericView>
                 <GenericView padding={dWidth * .025}>
                     <GenericView style={{ marginVertical: dHeight * .025 }} >
-                        <GenericText bold fontSize={20}>{promotionDetail.Title.replace(/<\/?[^>]+(>|$)/g, "")}</GenericText>
+                        <GenericText bold fontSize={20}>{promotionDetail.Title?.replace(/<\/?[^>]+(>|$)/g, "")}</GenericText>
                     </GenericView>
-                    <GenericText>{promotionDetail.Description.replace(/<\/?[^>]+(>|$)/g, "")}</GenericText>
+                    <GenericText>{promotionDetail.Description?.replace(/<\/?[^>]+(>|$)/g, "")}</GenericText>
                 </GenericView>
 
                 {/* geri düğmesi */}
