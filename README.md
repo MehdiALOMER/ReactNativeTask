@@ -1,5 +1,6 @@
 
 ![home](https://github.com/MehdiALOMER/ReactNativeTask/assets/52455021/5ae2907c-8c6a-4ce0-855e-cddf38779f90)
+
 ![detail](https://github.com/MehdiALOMER/ReactNativeTask/assets/52455021/c9d2c8b4-6e29-42f9-90cd-6d82f3866c28)
 
 
